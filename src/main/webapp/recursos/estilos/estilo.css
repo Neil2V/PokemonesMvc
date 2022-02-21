@@ -1,5 +1,12 @@
 body{
 	overflow-x:hidden;
-	overflow-y:hidden
+	font-family: 'Spartan', sans-serif;
+	
 }
 
+.card-img-top{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+    padding-top: 10px;
+}

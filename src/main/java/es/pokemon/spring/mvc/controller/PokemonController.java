@@ -46,7 +46,7 @@ public class PokemonController {
 		return "pokemones";
 	}
 	
-	
+		
 	@RequestMapping(value="/pokemon/{id}")
 	public String getPokemon(@PathVariable int id, Model model){//vista de detalle de cada pokemon
 		RestTemplate clienteRest = new RestTemplate();
