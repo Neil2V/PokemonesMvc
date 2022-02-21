@@ -1,4 +1,4 @@
-package es.pokemon.spring.mvc;
+package es.pokemon.spring.mvc.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -31,6 +31,11 @@ public class Info {
 
 	public void setUrl(String url) {
 		this.url = url;
+	}
+
+	@Override
+	public String toString() {
+		return "Info [name=" + name + ", url=" + url + "]";
 	}
     
     

@@ -1,4 +1,4 @@
-package es.pokemon.spring.mvc;
+package es.pokemon.spring.mvc.models;
 
 import java.util.List;
 
@@ -85,6 +85,12 @@ public class Pokemon {
 
 	public void setHeight(String height) {
 		this.height = height;
+	}
+
+	@Override
+	public String toString() {
+		return "Pokemon [id=" + id + ", name=" + name + ", sprites=" + sprites + ", types=" + types + ", weight="
+				+ weight + ", abilities=" + abilities + ", height=" + height + "]";
 	}
     
     

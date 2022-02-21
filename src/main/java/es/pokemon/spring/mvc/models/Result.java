@@ -1,4 +1,4 @@
-package es.pokemon.spring.mvc;
+package es.pokemon.spring.mvc.models;
 
 import java.util.List;
 
@@ -16,6 +16,8 @@ public class Result {
 	public void setListPokemon(List<Pokemon> listPokemon) {
 		this.listPokemon = listPokemon;
 	}
+	
+	
 	
 	
 }

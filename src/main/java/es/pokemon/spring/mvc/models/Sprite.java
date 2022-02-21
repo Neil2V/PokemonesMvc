@@ -1,4 +1,4 @@
-package es.pokemon.spring.mvc;
+package es.pokemon.spring.mvc.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -21,6 +21,11 @@ public class Sprite {
 
 	public void setFront_default(String front_default) {
 		this.front_default = front_default;
+	}
+
+	@Override
+	public String toString() {
+		return "Sprite [front_default=" + front_default + "]";
 	}
 	
 	

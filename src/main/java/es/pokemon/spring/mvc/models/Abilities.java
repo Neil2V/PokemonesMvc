@@ -1,4 +1,4 @@
-package es.pokemon.spring.mvc;
+package es.pokemon.spring.mvc.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -42,6 +42,11 @@ public class Abilities {
 
 	public void setAbility(Info ability) {
 		this.ability = ability;
+	}
+
+	@Override
+	public String toString() {
+		return "Abilities [is_hidden=" + is_hidden + ", slot=" + slot + ", ability=" + ability + "]";
 	}
     
 	

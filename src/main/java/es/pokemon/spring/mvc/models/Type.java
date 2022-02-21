@@ -1,4 +1,4 @@
-package es.pokemon.spring.mvc;
+package es.pokemon.spring.mvc.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -32,6 +32,11 @@ public class Type {
 
 	public void setType(Info type) {
 		this.type = type;
+	}
+
+	@Override
+	public String toString() {
+		return "Type [slot=" + slot + ", type=" + type + "]";
 	}
     
 	
